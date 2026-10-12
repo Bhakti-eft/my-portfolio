@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Profile photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14203a"/>
+      <stop offset="1" stop-color="#0b1120"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="110" fill="none" stroke="url(#ac)" stroke-width="6" opacity=".85"/>
+  <path d="M120 640c20-120 100-190 180-190s160 70 180 190" fill="none" stroke="url(#ac)" stroke-width="6" opacity=".85"/>
+  <text x="300" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#8b9bb4">Replace with public/images/profile.jpg</text>
+</svg>

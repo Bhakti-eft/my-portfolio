@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# build output
+dist
+dist-ssr
+*.tsbuildinfo
+
+# local env overrides (keep .env and .env.example — they hold no secrets)
+*.local
+
+# logs & editor
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Bhakti Priya Mohanta — Software Developer (Flutter · Node.js · Django · IoT)</title>
+    <meta
+      name="description"
+      content="Portfolio of Bhakti Priya Mohanta, a Software Developer in Bhubaneswar building Flutter mobile apps, Node.js and Django backends, and IoT systems — with live apps on Google Play and the App Store."
+    />
+    <meta name="author" content="Bhakti Priya Mohanta" />
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f6f8fb" media="(prefers-color-scheme: light)" />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bhakti Priya Mohanta" />
+    <meta property="og:title" content="Bhakti Priya Mohanta — Software Developer" />
+    <meta
+      property="og:description"
+      content="Flutter, Node.js, Python/Django and IoT developer with live production apps on Google Play and the App Store."
+    />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_SITE_URL%/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Bhakti Priya Mohanta — Software Developer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bhakti Priya Mohanta — Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Flutter, Node.js, Python/Django and IoT developer with live production apps on Google Play and the App Store."
+    />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/og-image.png" />
+
+    <!-- Structured data: Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bhakti Priya Mohanta",
+        "jobTitle": "Software Developer",
+        "url": "%VITE_SITE_URL%/",
+        "email": "mailto:bhakti.priya68@gmail.com",
+        "image": "%VITE_SITE_URL%/og-image.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bhubaneswar",
+          "addressRegion": "Odisha",
+          "addressCountry": "IN"
+        },
+        "worksFor": { "@type": "Organization", "name": "Quotus Software Solutions Pvt. Ltd." },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Utkal University" },
+          { "@type": "CollegeOrUniversity", "name": "GITA Autonomous College" },
+          { "@type": "CollegeOrUniversity", "name": "NIIS Group of Institutions" }
+        ],
+        "knowsAbout": ["Flutter", "Node.js", "Python", "Django", "PostgreSQL", "MongoDB", "Firebase", "IoT", "ESP32"],
+        "sameAs": ["https://www.linkedin.com/in/bhakti-priya-oc30", "https://github.com/Bhakti-eft"]
+      }
+    </script>
+
+    <!-- Apply saved theme before paint to avoid a light/dark flash -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p style="padding: 1rem; font-family: sans-serif">
+        Bhakti Priya Mohanta — Software Developer. Please enable JavaScript to view the interactive portfolio, or
+        email bhakti.priya68@gmail.com.
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
