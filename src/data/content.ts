@@ -32,7 +32,7 @@ export const profile: Profile = {
     'I’m looking for a challenging role where I can build impactful, scalable solutions and keep growing as an engineer.',
   ],
   // ▶ Replace with your photo: put it in /public/images and update this path.
-  photo: 'images/profile-placeholder.svg',
+  photo: 'images/profile.jpg',
   photoAlt: 'Portrait of Bhakti Priya Mohanta',
   // ▶ Replace the PDF in /public/cv to update the downloadable CV.
   cv: 'cv/Bhakti_Priya_Mohanta_CV.pdf',
